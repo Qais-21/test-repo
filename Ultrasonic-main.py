@@ -10,5 +10,5 @@ while True:
     elif distance_value > 15:
         display.scroll(str(int(distance_value)))
         sleep(2000)
+        display.scroll("Q")
         
-        display.scroll("add")
